@@ -1,0 +1,21 @@
+README
+
+Python script that transforms a table of images, into separate images according to the number of rows ans cols on that table,
+then using trace2scad images are transformed into scad files, then those files are modified and the scad files
+are rendered and exported as an stl file.
+
+The intention was to 3D print some blocks which contained some symbols that a Japanese teacher needed to use during her class.
+
+
+________________________________________________
+DEPENDENCIES
+ImageMagick - sudo apt-get install imagemagick
+Potrace - sudo apt-get install potrace
+Openscad - sudo apt-get install openscad
+Opencv - sudo apt-get install opencv
+Using -
+________________________________________________
+
+Using
+
+python main.py img_path num_of_cols num_of_rows
